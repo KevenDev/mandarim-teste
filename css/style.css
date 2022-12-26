@@ -29,14 +29,14 @@
 }
 
 #img-hero{
-  width: 85vw;
+  width: 83vw;
   height: 10rem;
 }
 
 .elements-hero{
   display: flex;
   flex-wrap: wrap;
-  width: 85vw;
+  width: 83vw;
   
 }
 
@@ -83,7 +83,7 @@
 }
 
 #img-grid1{
-  width: 80vw; 
+  width: 70vw; 
   height: 10.75rem;
   justify-content: center;
  
@@ -92,7 +92,7 @@
 .elements-card1{
   display: flex;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 70vw;
 }
 
 .elements-card1 h1{
@@ -123,14 +123,14 @@
 }
 
 #img-grid2{
-  width: 80vw;
+  width: 70vw;
   height: 10.75rem;
 }
 
 .elements-card2{
   display: flex;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 70vw;
 }
 
 .elements-card2 h1{
@@ -280,38 +280,44 @@
 
 @media(min-width: 1024px) {
   .header-content img{
-    width: 100%;
+    width: 85%;
     height: 13rem;
   }
 
   #img-hero{
-    height: 18rem;
+    width: 75%;
+    height: 20rem;
   }
 
+  .elements-hero{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
 
   .container-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 85vw;
+    width: 75%;
     justify-items: flex-start;
   }
 
   #img-grid1{
-    width: 41vw; 
-    height: 10.75rem;
+    width: 23rem; 
+    height: 13.75rem;
   }
 
   
   #img-grid2{
-    width: 41vw; 
-    height: 10.75rem;
+    width: 23.5rem; 
+    height: 13.75rem;
   }
 
   .elements-card1{
     display: flex;
     align-items: center;
     text-align: center;
-    width: 41vw;
+    width: 23rem;
   }
 
   .elements-card1 h1{
@@ -319,7 +325,7 @@
     align-items: center;
     text-align: left;
     width: 42vw;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .elements-card1 span{
@@ -331,14 +337,14 @@
     display: flex;
     align-items: center;
     text-align: center;
-    width: 41vw;
+    width: 23.5rem;
   }
   .elements-card2 h1{
     display: flex;
     align-items: center;
     text-align: left;
     width: 38vw;
-    font-size: 16px;
+    font-size: 15px;
   }
   
   .elements-card2 span{
@@ -354,7 +360,7 @@
   }
 
   .card-footer img{
-    width: 100vw;
+    width: 85%;
     margin-top: 1rem;
     height: 5rem;
   }
@@ -372,37 +378,38 @@
 
 @media(min-width: 1200px) {
   .header-content img{
-    width: 100%;
+    width: 65%;
     height: 10rem;
   }
 
   #img-hero{
-    height: 20rem;
-    width: 65%;
+    width: 40rem;
+    height: 15rem;
   }
 
   .elements-hero{
-    display: block;
-    width: 65%;
+    display: flex;
+    flex-direction: column;
+    width: 44.4rem;
+    margin-left: 4.4rem;
   }
 
   .container-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 65vw;
+    width: 40rem;
     justify-items: flex-start;
-    margin-left: 10px;
     grid-gap: 0.5rem;
   }
 
   #img-grid1{
-    width: 31.5vw; 
+    width: 19rem; 
     height: 14.75rem;
   }
 
   
   #img-grid2{
-    width: 31.5vw; 
+    width: 19rem; 
     height: 14.75rem;
   }
 
@@ -410,7 +417,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    width: 31.5vw;
+    width: 19rem;
   }
 
   .elements-card1 h1{
@@ -430,7 +437,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    width: 31.5vw;
+    width: 19rem;
   }
   .elements-card2 h1{
     display: flex;
@@ -453,14 +460,14 @@
   }
 
   .card-footer img{
-    width: 100%;
+    width: 65%;
     margin-top: 1rem;
     height: 5rem;
   }
   
   .text-footer{
     font-size: 12px;
-    width: 100%;
+    width: 65%;
     background-color: #f1f1f1;
     padding: 1rem;
     text-align: center;
